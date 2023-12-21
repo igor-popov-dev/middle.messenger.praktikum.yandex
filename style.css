@@ -16,8 +16,8 @@
 @import '/src/components/chat-footer/chat-footer.css';
 @import '/src/components/back-panel/back-panel.css';
 @import '/src/components/profile-container/profile-container.css';
-@import '/src/components/profile-input/profile-input';
-@import '/src/components/error-page-message/error-page-message';
+@import '/src/components/profile-input/profile-input.css';
+@import '/src/components/error-page-message/error-page-message.css';
 
 body {
   margin: 0;

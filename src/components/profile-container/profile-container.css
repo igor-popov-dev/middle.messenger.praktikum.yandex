@@ -22,6 +22,7 @@
     overflow: hidden;
     cursor: pointer;
 }
+
 .profile-container__cursor-pointered {
     opacity: 0;
     font-family: 'Roboto', sans-serif;
