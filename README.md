@@ -7,22 +7,8 @@ https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?type=design
 ### Тех Задание:
 https://juniper-gambler-ec4.notion.site/1-9aaa8c747918449cb4d1a261f983525a
 
-### Cверстанные страницы можно посмотреть по ссылкам:
-* Страница авторизации:
-**/auth**
-* Страница регистрации:
-**/registration**
-* Список чатов/чат:
-**/list**
-* Страница профайла:
-**/profile**
-* Страница редактировани профайла:
-**/profile-edit**
-* Страница изменения пароля:
-**/password-edit**
-* Страницы с ошибками:
-**/404**
-**/500**
+### Cверстанные страницы можно посмотреть по ссылкe:
+https://peppy-baklava-57a3c4.netlify.app/
 
 ### В проекте используются:
 * handlebars

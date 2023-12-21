@@ -1,0 +1,9 @@
+.links {
+    width: 500px;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.links__title {
+    font-family: 'Roboto', sans-serif;
+}

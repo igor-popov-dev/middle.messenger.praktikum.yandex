@@ -3,6 +3,7 @@
 @import '/src/pages/auth/auth.css';
 @import '/src/pages/list/list.css';
 @import '/src/pages/profile/profile.css';
+@import '/src/pages/links/links.css';
 @import '/src/components/auth-reg-form/auth-reg-form.css';
 @import '/src/components/button/button.css';
 @import '/src/components/input/input.css';

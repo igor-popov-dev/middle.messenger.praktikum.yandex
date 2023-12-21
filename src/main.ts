@@ -11,6 +11,7 @@ const pages = {
   'password-edit': [ Pages.PasswordEdit ],
   '404': [ Pages.ErrorCode404 ],
   '500': [ Pages.ErrorCode500 ],
+  'links': [ Pages.LinksPage ],
 };
 
 Object.entries(Components).forEach(([ name, component ]) => {
@@ -24,8 +25,7 @@ function navigate(page: string) {
   container.innerHTML = Handlebars.compile(source)(context);
 }
 
-// document.addEventListener('DOMContentLoaded', () => navigate(window.location.pathname.slice(1)));
-document.addEventListener('DOMContentLoaded', () => navigate('auth'));
+document.addEventListener('DOMContentLoaded', () => navigate('links'));
 
 
 document.addEventListener('click', e => {
