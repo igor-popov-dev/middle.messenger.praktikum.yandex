@@ -1,1 +1,0 @@
-export { default as MessageImage } from './message-image.hbs?raw';

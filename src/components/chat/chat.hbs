@@ -1,5 +1,7 @@
 <div class="chat">
-    {{!-- <div class="chat__no-selected">Выберите чат чтобы отправить сообщение</div> --}}
+    {{#if chatNotSelected}}
+        <div class="chat__no-selected">Выберите чат чтобы отправить сообщение</div>
+    {{else}}
     <div class="chat__content">
         {{> ChatHeader }}
         <div class="chat-messages">
@@ -13,4 +15,5 @@
         </div>
         {{> ChatFooter }}
     </div>
+    {{/if}}
 </div>

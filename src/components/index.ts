@@ -6,7 +6,6 @@ export { ChatItem } from './chat-item';
 export { Chat } from './chat';
 export { ChatHeader } from './chat-header';
 export { Message } from './message';
-export { MessageImage } from './message-image';
 export { ChatFooter } from './chat-footer';
 export { BackPanel } from './back-panel';
 export { ProfileContainer } from './profile-container';
