@@ -24,7 +24,8 @@ function navigate(page: string) {
   container.innerHTML = Handlebars.compile(source)(context);
 }
 
-document.addEventListener('DOMContentLoaded', () => navigate(window.location.pathname.slice(1)));
+// document.addEventListener('DOMContentLoaded', () => navigate(window.location.pathname.slice(1)));
+document.addEventListener('DOMContentLoaded', () => navigate('auth'));
 
 
 document.addEventListener('click', e => {
