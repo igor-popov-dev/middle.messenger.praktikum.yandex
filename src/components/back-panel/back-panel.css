@@ -1,0 +1,22 @@
+.back-panel {
+    height: 100vh;
+    background: #FBFBFB;
+    border-right: 1px solid #EAEAEA;
+    width: 64px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-panel__arrow {
+    width: 36px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: var(--main-color);
+    cursor: pointer;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

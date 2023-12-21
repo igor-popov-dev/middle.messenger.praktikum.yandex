@@ -1,0 +1,79 @@
+.chat-item {
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.chat-item:after {
+    content: '';
+    height: 1px;
+    background: #EAEAEA;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+}
+
+.chat-item:hover {
+    background: #E4EDFD;
+}
+
+.chat-item__ava {
+    min-width: 47px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #EFEFEF;
+}
+
+.chat-item__name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    color: var(--text-color);
+    margin: 0 0 4px;
+}
+
+.chat-item__content {
+    width: 100%;
+}
+
+.chat-item__text {
+    color: var(--text-secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0;
+}
+
+.chat-item__time {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    color: var(--text-secondary-color);
+    margin-bottom: 14px;
+}
+
+.chat-item__unread-messages {
+    background: var(--main-color);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    min-width: 20px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+}

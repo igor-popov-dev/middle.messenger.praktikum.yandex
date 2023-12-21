@@ -1,0 +1,79 @@
+.panel {
+    background: #FBFBFB;
+    height: 100vh;
+    min-width: 310px;
+    border-right: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.chats {
+    overflow-y: scroll;
+}
+
+.profile-link-container {
+    text-align: right;
+    padding: 20px 10px;
+}
+
+.profile-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 12px;
+    cursor: pointer;
+    color: var(--text-secondary-color);
+}
+.profile-link:hover {
+    transition: all 0.3s;
+    color: var(--text-color);
+}
+
+.search-panel {
+    position: relative;
+    padding: 0 10px 15px;
+    position: relative;
+}
+.search-panel:after {
+    content: '';
+    height: 1px;
+    background: #EAEAEA;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+}
+
+.search-panel__input {
+    border: none;
+    border-radius: 5px;
+    background: #EFEFEF;
+    height: 32px;
+    width: 100%;
+    padding: 0 34px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-panel__input::placeholder {
+    text-align: center;
+}
+
+.search-panel__svg {
+    position: absolute;
+    top: 5px;
+    left: 116px;
+}
+
+.search-panel__input:focus {
+    outline: none;
+}
+.search-panel__input:focus::placeholder {
+    opacity: 0;
+}
+
+.search-panel__input:focus + .search-panel__svg,
+.search-panel__input:not(:placeholder-shown) + .search-panel__svg {
+    left: 15px;
+}

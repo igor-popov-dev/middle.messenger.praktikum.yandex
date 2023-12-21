@@ -1,0 +1,14 @@
+<div class="container">
+    {{#> AuthRegForm title="Регистрация"}}
+        {{> Input label="Почта" name="email" type="email"}}
+        {{> Input label="Логин" name="login" type="text"}}
+        {{> Input label="Имя" name="first_name" type="text"}}
+        {{> Input label="Фамилия" name="second_name" type="text"}}
+        {{> Input label="Телефон" name="phone" type="tel"}}
+        {{> Input label="Пароль" name="password" type="password"}}
+        <div class="buttons-container">
+            {{> Button label="Зарегистрироваться" type="primary" page="list"}}
+            {{> Button label="Войти" type="link" page="auth"}}
+        </div>
+    {{/AuthRegForm}}
+</div>

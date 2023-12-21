@@ -1,0 +1,10 @@
+<div class="container">
+    {{#> AuthRegForm title="Вход"}}
+        {{> Input label="Логин" name="login" type="text"}}
+        {{> Input label="Пароль" name="password" type="password" error_text="Неверный пароль"}}
+        <div class="buttons-container">
+            {{> Button label="Войти" type="primary" page="list"}}
+            {{> Button label="Зарегистрироваться" type="link" page="registration" }}
+        </div>
+    {{/AuthRegForm}}
+</div>
