@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite build"
+    "start": "vite build",
+    "lint": "eslint src --ext .ts"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin-js": "^1.5.1",

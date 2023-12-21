@@ -19,7 +19,6 @@ Object.entries(Components).forEach(([ name, component ]) => {
 });
 
 function navigate(page: string) {
-  //@ts-ignore
   const [ source, context ] = pages[page];
   const container = document.getElementById('app')!;
   container.innerHTML = Handlebars.compile(source)(context);
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => navigate('links'));
 
 
 document.addEventListener('click', e => {
-  //@ts-ignore
+  //@ts-expect-error: Unreachable code error
   const page = e.target.getAttribute('page');
   if (page) {
     navigate(page);

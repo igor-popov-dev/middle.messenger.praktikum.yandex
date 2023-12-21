@@ -34,6 +34,8 @@ module.exports = {
     'semi': ['error', 'always'],
     'indent': ['error', 2],
     '@typescript-eslint/ban-ts-comment': 'warn',
-    '@stylistic/js/eol-last': 1
+    '@stylistic/js/eol-last': 1,
+    'no-undef': 'warn',
   }
 };
+    

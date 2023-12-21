@@ -7,7 +7,7 @@ function isEmpty(value: unknown) {
   }
   if (typeof value === 'object') {
     for (const prop in value) {
-      //@ts-ignore
+      //@ts-expect-error: Unreachable code error
       if (Object.hasOwn(value, prop)) {
         return false;
       }
@@ -16,11 +16,11 @@ function isEmpty(value: unknown) {
   if (typeof value === 'string' && value.length) {
     return false;
   }
-  //@ts-ignore
+  //@ts-expect-error: Unreachable code error
   if (value && value.size) {
     return false;
   }
   return true;
 }
-
+isEmpty(0);
 //решение автора https://playcode.io/880114
