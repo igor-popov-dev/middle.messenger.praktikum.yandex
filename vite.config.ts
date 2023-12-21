@@ -3,7 +3,7 @@ import autoprefixer from 'autoprefixer';
 import eslint from 'vite-plugin-eslint';
 
 export default defineConfig({
-  server: {
+  preview: {
     port: 3000,
   },
   plugins: [eslint({
