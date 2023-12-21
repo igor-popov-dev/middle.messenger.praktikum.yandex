@@ -6,7 +6,11 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  plugins: [eslint()],
+  plugins: [eslint({
+    cache: false,
+    include: ['./**/*.js', '/**/*.ts',  '/**/*.cts'],
+    exclude: [],
+  })],
   css: {
     postcss: {
       plugins: [

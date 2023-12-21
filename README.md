@@ -17,9 +17,7 @@ https://peppy-baklava-57a3c4.netlify.app/
 * typescript
 
 ### Комманды:
-```
-npm run dev
-npm run build
-npm run preview
-npm run start
-```
+```npm run dev``` - для локальной разработки
+```npm run build``` -  сборка билда
+```npm run preview``` - посмотреть собранный проект
+```npm run start``` - для сборки и последущего деплоя
