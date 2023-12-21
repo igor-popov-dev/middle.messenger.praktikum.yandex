@@ -1,3 +1,3 @@
 export function identity(value: unknown) {
-    return value;
+  return value;
 }
