@@ -13,7 +13,7 @@
     width: 130px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    background: #EFEFEF;
+    background: var(--bg-lighter);
     margin-bottom: 20px;
     display: flex;
     align-items: center;

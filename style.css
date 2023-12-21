@@ -25,8 +25,11 @@ body {
 
 :root {
   --main-color: #3369f3;
-  --second-color: #e4edfd;
+  --second-color: var(--bg-accent-light);
   --error-color: #ff2f2f;
   --text-color: #3c3c3c;
   --text-secondary-color: #999;
+  --bg-secondary: #eaeaea;
+  --bg-lighter: #efefef;
+  --bg-accent-light: #E4EDFD;
 }

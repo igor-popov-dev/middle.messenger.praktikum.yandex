@@ -11,7 +11,7 @@
 .chat-item:after {
     content: '';
     height: 1px;
-    background: #EAEAEA;
+    background: var(--bg-secondary);
     position: absolute;
     left: 10px;
     right: 10px;
@@ -19,14 +19,14 @@
 }
 
 .chat-item:hover {
-    background: #E4EDFD;
+    background: var(--bg-accent-light);
 }
 
 .chat-item__ava {
     min-width: 47px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    background: #EFEFEF;
+    background: var(--bg-lighter);
 }
 
 .chat-item__name {

@@ -17,7 +17,7 @@
     right: 20px;
     top: 0;
     height: 1px;
-    background: #EAEAEA;
+    background: var(--bg-secondary);
 }
 
 .chat-footer__attach {
@@ -36,7 +36,7 @@
 
 .chat-footer__input {
     border-radius: 30px;
-    background: #EFEFEF;
+    background: var(--bg-lighter);
     font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
     border: none;

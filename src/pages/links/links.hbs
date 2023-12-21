@@ -1,28 +1,15 @@
 <div class="links">
     <h2 class="links__title">Список сверстанных страниц:</h2>
-    <p>
-        {{> Button label="Страница авторизации:" type="link" page="auth" }}
-    </p>
-    <p>
-     {{> Button label="Страница регистрации:" type="link" page="registration" }}
-    </p>
-    </p>
-    <p> 
-     {{> Button label="Список чатов/чат:" type="link" page="list" }}
-    </p>
-    <p> 
-     {{> Button label="Страница профайла:" type="link" page="profile" }}
-    </p>
-    <p> 
-     {{> Button label="Страница редактировани профайла:" type="link" page="profile-edit" }}
-    </p>
-    <p> 
-     {{> Button label="Страница изменения пароля:" type="link" page="password-edit" }}
-    </p>
-    <p> 
-     {{> Button label="Страницы с ошибками: 404" type="link" page="404" }}
-    </p>
-    <p> 
-     {{> Button label="Страницы с ошибками: 500" type="link" page="500" }}
-    </p>
+    <nav>
+        <ul class="links__list">
+            <li class="links__li">{{> Button label="Страница авторизации:" type="link" page="auth" }}</li>
+            <li class="links__li">{{> Button label="Страница регистрации:" type="link" page="registration" }}</li>
+            <li class="links__li">{{> Button label="Список чатов/чат:" type="link" page="list" }}</li>
+            <li class="links__li">{{> Button label="Страница профайла:" type="link" page="profile" }}</li>
+            <li class="links__li">{{> Button label="Страница редактировани профайла:" type="link" page="profile-edit" }}</li>
+            <li class="links__li">{{> Button label="Страница изменения пароля:" type="link" page="password-edit" }}</li>
+            <li class="links__li">{{> Button label="Страницы с ошибками: 404" type="link" page="404" }}</li>
+            <li class="links__li">{{> Button label="Страницы с ошибками: 500" type="link" page="500" }}</li>
+        </ul>
+    </nav>
 </div>

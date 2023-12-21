@@ -16,13 +16,13 @@
     right: 20px;
     bottom: 0;
     height: 1px;
-    background: #EAEAEA;
+    background: var(--bg-secondary);
 }
 .chat-header__ava {
     min-width: 34px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    background: #EFEFEF;
+    background: var(--bg-lighter);
 }
 
 .chat-header__label {

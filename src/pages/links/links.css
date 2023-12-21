@@ -7,3 +7,12 @@
 .links__title {
     font-family: 'Roboto', sans-serif;
 }
+
+.links__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.links__li {
+    margin-bottom: 10px;
+}

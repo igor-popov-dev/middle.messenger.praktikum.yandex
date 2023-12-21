@@ -1,6 +1,6 @@
 .profile-input {
     width: 100%;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid var(--bg-secondary);
     padding: 10px 0;
     display: flex;
     justify-content: space-between;

@@ -13,7 +13,7 @@
 }
 
 .message__outgoing {
-    background: #E4EDFD;
+    background: var(--bg-accent-light);
     align-self: end;
     min-width: 45px;
 }
@@ -54,7 +54,7 @@
 .message_img {
     max-width: 316px;
     padding: 0;
-    border: 1px solid #EAEAEA;
+    border: 1px solid var(--bg-secondary);
 }
 
 .message__time_img {

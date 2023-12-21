@@ -1,7 +1,7 @@
 .back-panel {
     height: 100vh;
     background: #FBFBFB;
-    border-right: 1px solid #EAEAEA;
+    border-right: 1px solid var(--bg-secondary);
     width: 64px;
     cursor: pointer;
     display: flex;

@@ -2,7 +2,7 @@
     background: #FBFBFB;
     height: 100vh;
     min-width: 310px;
-    border-right: 1px solid #EAEAEA;
+    border-right: 1px solid var(--bg-secondary);
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +38,7 @@
 .search-panel:after {
     content: '';
     height: 1px;
-    background: #EAEAEA;
+    background: var(--bg-secondary);
     position: absolute;
     left: 10px;
     right: 10px;
@@ -48,7 +48,7 @@
 .search-panel__input {
     border: none;
     border-radius: 5px;
-    background: #EFEFEF;
+    background: var(--bg-lighter);
     height: 32px;
     width: 100%;
     padding: 0 34px;
