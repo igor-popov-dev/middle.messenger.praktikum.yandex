@@ -1,6 +1,6 @@
-import Handlebars from 'handlebars'
-import * as Components from './components'
-import * as Pages from './pages'
+import Handlebars from 'handlebars';
+import * as Components from './components';
+import * as Pages from './pages';
 
 const pages = {
   'auth': [ Pages.AuthPage, {test: '123'} ],

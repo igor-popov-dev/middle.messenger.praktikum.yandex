@@ -1,1 +1,1 @@
-export {default as AuthRegForm} from './auth-reg-form.hbs?raw'
+export {default as AuthRegForm} from './auth-reg-form.hbs?raw';
