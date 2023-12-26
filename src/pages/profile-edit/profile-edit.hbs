@@ -1,0 +1,17 @@
+<div class="profile">
+    {{> BackPanel}}
+    {{#> ProfileContainer }} 
+        <div class="full-width">
+            {{> ProfileInput label="Почта" name="email"  value="test@test.ru" type="email" disabled=false}}
+            {{> ProfileInput label="Логин" name="login"  value="ivanivanov" type="text" disabled=false}}
+            {{> ProfileInput label="Имя" name="first_name"  value="Иван" type="text" disabled=false}}
+            {{> ProfileInput label="Фамилия" name="second_name"  value="Иванов" type="text" disabled=false}}
+            {{> ProfileInput label="Имя в чате" name="display_name"  value="Иван" type="text" disabled=false}}
+            {{> ProfileInput label="Телефон" name="phone"  value="+79099673030" type="tel" disabled=false}}
+        </div>
+        <div class="full-width">
+            {{> Button label="Сохранить" type="primary" }}
+        </div>
+
+        {{/ProfileContainer}}
+</div>

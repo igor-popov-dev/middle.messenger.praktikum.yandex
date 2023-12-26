@@ -1,0 +1,46 @@
+.profile-input {
+    width: 100%;
+    border-bottom: 1px solid var(--bg-secondary);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile-input__label {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    width: 100%;
+}
+.profile-input__element {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: right;
+}
+.profile-input__element:focus {
+    outline: none;
+}
+
+.profile-input__error {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+    bottom: -10px;
+    padding: 5px 10px;
+    background: var(--error-color);
+}

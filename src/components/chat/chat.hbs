@@ -1,0 +1,19 @@
+<div class="chat">
+    {{#if chatNotSelected}}
+        <div class="chat__no-selected">Выберите чат чтобы отправить сообщение</div>
+    {{else}}
+    <div class="chat__content">
+        {{> ChatHeader }}
+        <div class="chat-messages">
+            <p class="chat-messages__date">19 июня</p>
+            {{> Message type="incoming" time="11:56" text="Привет! Смотри, тут всплыл интересный кусок лунной космической истории — НАСА в какой-то момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. Сейчас мы все знаем что астронавты летали с моделью 500 EL — и к слову говоря, все тушки этих камер все еще находятся на поверхности Луны, так как астронавты с собой забрали только кассеты с пленкой."}}
+            {{> Message type="outgoing" time="12:50" text="Круто" readed=true}}
+            {{> Message type="incoming" time="11:56" image="https://avatars.mds.yandex.net/get-mpic/4591438/img_id5030141304480382679.jpeg/orig"}}
+            {{> Message type="incoming" time="11:56" image="https://avatars.mds.yandex.net/get-mpic/4591438/img_id5030141304480382679.jpeg/orig"}}
+            {{> Message type="incoming" time="11:56" image="https://avatars.mds.yandex.net/get-mpic/4591438/img_id5030141304480382679.jpeg/orig"}}
+            {{> Message type="outgoing" time="13:56" readed=true image="https://w-dog.org/android-wallpapers/0/1/476801821102340/the-camera-pentax-me-super-background.jpg"}}
+        </div>
+        {{> ChatFooter }}
+    </div>
+    {{/if}}
+</div>

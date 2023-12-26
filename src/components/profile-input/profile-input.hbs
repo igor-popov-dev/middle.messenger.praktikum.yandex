@@ -1,0 +1,7 @@
+<div class="profile-input">
+    <label class="profile-input__label" for={{name}}>{{label}}</label>
+    <input class="profile-input__element" name={{name}} type={{type}} value={{value}} {{disabled}} id={{name}}>
+    {{#if error}}
+        <div class="profile-input__error">{{error}}</div>
+    {{/if}}
+</div>
