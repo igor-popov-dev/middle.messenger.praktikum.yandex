@@ -7,7 +7,7 @@
 }
 
 .error-page-message__error-number {
-    font-family: 'Pacifico', cursive;
+    font-family: Pacifico, cursive;
     margin-bottom: 20px;
     color: var(--text-color);
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .error-page-message__message {
-    font-family: 'Pacifico', cursive;
+    font-family: Pacifico, cursive;
     margin-bottom: 70px;
     color: var(--text-color);
     font-size: 20px;

@@ -11,7 +11,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "start": "tsc --noEmit && vite build && vite preview",
-    "lint": "eslint src --ext .ts"
+    "lint": "eslint src --ext .ts",
+    "stylelint": "npx stylelint '**/*.css'",
+    "stylelint:fix": "npx stylelint '**/*.css' --fix"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin-js": "^1.5.1",
@@ -21,6 +23,8 @@
     "eslint": "^8.56.0",
     "handlebars": "4.7.8",
     "postcss-nesting": "^12.0.2",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.3.3",
     "vite": "^4.4.5",
     "vite-plugin-checker": "latest",

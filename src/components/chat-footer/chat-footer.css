@@ -10,6 +10,7 @@
     align-items: center;
     background: #fff;
 }
+
 .chat-footer::before {
     content: '';
     position: absolute;
@@ -37,11 +38,12 @@
 .chat-footer__input {
     border-radius: 30px;
     background: var(--bg-lighter);
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     padding: 10px 20px;
     border: none;
     width: 100%;
 }
+
 .chat-footer__input:focus {
     outline: none;
 }

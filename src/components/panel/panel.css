@@ -17,7 +17,7 @@
 }
 
 .profile-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -25,17 +25,18 @@
     cursor: pointer;
     color: var(--text-secondary-color);
 }
+
 .profile-link:hover {
     transition: all 0.3s;
     color: var(--text-color);
 }
 
 .search-panel {
-    position: relative;
     padding: 0 10px 15px;
     position: relative;
 }
-.search-panel:after {
+
+.search-panel::after {
     content: '';
     height: 1px;
     background: var(--bg-secondary);
@@ -53,7 +54,7 @@
     width: 100%;
     padding: 0 34px;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .search-panel__input::placeholder {
@@ -69,6 +70,7 @@
 .search-panel__input:focus {
     outline: none;
 }
+
 .search-panel__input:focus::placeholder {
     opacity: 0;
 }

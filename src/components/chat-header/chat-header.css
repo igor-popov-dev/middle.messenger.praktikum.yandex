@@ -9,6 +9,7 @@
     right: 0;
     top: 0;
 }
+
 .chat-header::after {
     content: '';
     position: absolute;
@@ -18,6 +19,7 @@
     height: 1px;
     background: var(--bg-secondary);
 }
+
 .chat-header__ava {
     min-width: 34px;
     aspect-ratio: 1 / 1;
@@ -26,7 +28,7 @@
 }
 
 .chat-header__label {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--text-color);
     font-size: 13px;
     font-style: normal;

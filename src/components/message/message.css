@@ -19,7 +19,7 @@
 }
 
 .message__text {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--text-color);
     margin: 0;
     white-space: pre-line;
@@ -31,7 +31,7 @@
 }
 
 .message__time {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--text-secondary-color);
     font-size: 9px;
     font-weight: 400;
@@ -59,7 +59,7 @@
 
 .message__time_img {
     border-radius: 30px;
-    background: rgba(82, 82, 82, 0.50);
+    background: rgb(82 82 82 / 50%);
     color: #fff;
     padding: 4px 8px;
 }

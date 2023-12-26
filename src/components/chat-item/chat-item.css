@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.chat-item:after {
+.chat-item::after {
     content: '';
     height: 1px;
     background: var(--bg-secondary);
@@ -30,7 +30,7 @@
 }
 
 .chat-item__name {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
@@ -45,7 +45,7 @@
 
 .chat-item__text {
     color: var(--text-secondary-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
@@ -53,7 +53,7 @@
 }
 
 .chat-item__time {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 9px;
     font-style: normal;
     font-weight: 500;
@@ -65,7 +65,7 @@
 .chat-item__unread-messages {
     background: var(--main-color);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     min-width: 20px;
     aspect-ratio: 1 / 1;
     display: flex;

@@ -5,6 +5,7 @@
 .full-width {
     width: 100%;
 }
+
 .line {
     width: 100%;
     border-bottom: 1px solid var(--bg-secondary);
